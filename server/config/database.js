@@ -1,7 +1,7 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const mongoose = require('mongoose');
 
-const uri = process.env.MONGO_URI || "mongodb+srv://krsh978:nBLtcjzm7VjxVvY6@cluster0.ee8qlem.mongodb.net/?appName=Cluster0";
+const uri = process.env.MONGO_URI;
 
 const connectDB = async () => {
   try {
